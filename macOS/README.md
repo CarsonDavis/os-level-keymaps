@@ -53,3 +53,13 @@ If you'd like to customize these keyboard layouts, you can edit the XML
 inside of the `.keylayout` files directly or, if obtuse XML isn't to
 your liking, Ukelele is a graphical tool for editing these bundles.
 Ukelele is available for download at http://scripts.sil.org/ukelele
+
+## What I actually use
+
+- Install system-wide to `/Library/Keyboard Layouts` and pick **Colemak DH ANSI** (not Matrix, not Extended). On ANSI the bundle already includes the angle mod.
+- Remove **U.S.** from the input sources list once Colemak DH ANSI works, so the layout can't flip back by accident.
+- **Swap Control and Command.** System Settings > Keyboard > Keyboard Shortcuts… > Modifier Keys. Pick the keyboard in the dropdown, set Control to ⌘ Command and Command to ⌃ Control. This is stored per keyboard, so do it once for the built-in keyboard and again for each external one.
+
+## Verify
+
+Type the home row left to right in any text field. It should read `arstgmneio`. From the physical `Z` key the bottom row should read `xcdvzkh,./`.
